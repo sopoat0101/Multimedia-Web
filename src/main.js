@@ -4,7 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import Home from './components/Home.vue'
+
 Vue.config.productionTip = false
+
+Vue.component('app-home', Home)
 
 /* eslint-disable no-new */
 new Vue({
